@@ -1,0 +1,489 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: verdana;
+  overflow-x: hidden;
+}
+.main {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+#sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 12;
+}
+.container {
+  width: 100%;
+  margin: auto;
+}
+.book button {
+  background-color: rgb(40, 145, 201);
+  color: white;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  transition: 0.4s ease-in all;
+}
+.book button:hover {
+  background-color: #010f24;
+}
+.home ul li {
+  display: inline;
+  padding: 0 15px;
+  margin: 0 25px;
+}
+.main ul li:hover {
+  color: rgb(40, 145, 201);
+}
+.main .icon {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  right: 0;
+  background-color: rgb(8, 122, 183);
+  color: white;
+  font-size: 25px;
+  margin: 15px;
+  padding: 8px;
+  border-radius: 8px;
+}
+.background-image {
+  background-size: cover;
+  background-image: url("./img/medical-equipment-loan-for-doctors.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  padding: 30px;
+  margin: auto;
+  position: relative;
+}
+.background-image .text-section {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+.text-section h1 {
+  padding: 15px 0;
+  font-size: 36px;
+  text-transform: capitalize;
+}
+.text-section p {
+  padding: 8px 0;
+  width: 52%;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.text-section button {
+  background-color: rgb(40, 145, 201);
+  color: white;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  transition: 0.4s ease-in all;
+}
+.text-section button:first-of-type {
+  margin-right: 12px;
+}
+.text-section button:hover {
+  background-color: #010f24;
+}
+#main-box {
+  justify-content: space-around;
+  padding: 30px;
+  display: flex;
+  position: relative;
+  top: -250px;
+}
+#main-box div {
+  background-color: rgb(40, 145, 201);
+  color: white;
+  padding: 60px;
+  margin: 20px;
+  border-radius: 6px;
+  transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+#main-box div:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px -10px rgb(40, 145, 201);
+}
+#main-box .box h5 {
+  padding: 20px;
+  margin: auto;
+  font-size: 16px;
+  font-weight: lighter;
+}
+#main-box .box h2 {
+  margin: 5px;
+}
+#main-box .box p {
+  margin: 3px;
+  padding: 10px;
+}
+.text {
+  text-align: center;
+  padding: 15px;
+  width: 40%;
+  font-size: 18px;
+  position: relative;
+  margin: 0 auto;
+  top: -250px;
+}
+.text h1 {
+  padding: 20px;
+  margin: 20px;
+}
+#text-icon {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+}
+#text-icon .icon {
+  width: 28%;
+}
+
+#text-icon .icon i {
+  border: 2px solid rgb(160, 160, 160);
+  color: rgb(40, 145, 201);
+  font-size: 40px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 50%;
+}
+#text-icon .icon h3 {
+  padding: 3px;
+  margin: 5px;
+  font-size: 24px;
+}
+#text-icon .icon p {
+  padding: 5px;
+  margin: 10px;
+  font-size: 16px;
+}
+#text-icon .icon i:hover {
+  background-color: rgb(40, 145, 201);
+  color: white;
+}
+.happy {
+  background-image: url("./img/blockqoute-bg.jpg");
+  padding: 40px;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  font-size: 20px;
+  margin-top: 5%;
+  height: 30vh;
+  align-items: center;
+}
+.happy i{
+  font-size: 30px;
+}
+.heading {
+  text-align: center;
+  width: 30%;
+  padding: 20px;
+  margin: auto;
+}
+.heading h1 {
+  font-size: 34px;
+  padding: 10px;
+  margin: auto;
+}
+.heading img {
+  padding: 10px;
+}
+.heading p {
+  padding: 15px;
+  font-size: 18px;
+  color: gray;
+}
+.text-img {
+  display: flex;
+  padding: 20px;
+  width: 80%;
+  justify-content: space-around;
+}
+.text-img h3 {
+  padding: 5px 0;
+  font-size: 22px;
+}
+.text-img .paragraph {
+  width: 50%;
+  line-height: 25px;
+}
+.text-img p {
+  padding: 15px 0;
+  font-size: 16px;
+}
+#medical-care {
+  background-color: rgb(40, 145, 201);
+  width: 100%;
+}
+#medical-care h2 {
+  padding: 20px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  width: 35%;
+}
+#medical-care p {
+  margin: 0 auto;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  width: 30%;
+}
+#medical-care div {
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+}
+#medical-care button {
+  margin: 0 20px;
+  padding: 15px;
+  width: 200px;
+  color: rgb(22, 139, 202);
+  font-size: 16px;
+  font-weight: 500;
+}
+#header-text {
+  padding: 40px;
+  margin: 0 auto 9%;
+  text-align: center;
+  width: 35%;
+}
+#header-text .head {
+  padding: 10px;
+  font-size: 16px;
+}
+#header-text .head img {
+  padding: 10px;
+}
+#header-text .head p {
+  padding: 25px;
+}
+#image-slide {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+#image-slide img {
+  width: 23%;
+}
+.heading-text {
+  padding: 30px;
+  width: 35%;
+  margin: 0 auto;
+  text-align: center;
+}
+.heading-text img {
+  padding: 10px;
+  margin: 10px;
+}
+
+#icon {
+  display: flex;
+  margin: 5% auto;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#icon .text {
+  width: 25%;
+  position: relative;
+  top: 30%;
+}
+.text i {
+  color: rgb(22, 139, 202);
+  font-size: 36px;
+  padding: 10px;
+}
+.heading2 {
+  text-align: center;
+  padding: 20px;
+  width: 30%;
+  margin: 0 auto;
+}
+.heading2 img {
+  padding: 10px;
+}
+.heading2 p {
+  padding: 10px;
+}
+#Suggery {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+.plastic {
+  width: 25%;
+  /* border: 1px solid #010f24; */
+  padding: 1%;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: white;
+}
+.plastic i {
+  color: rgb(22, 139, 202);
+  font-size: 30px;
+}
+.plastic h3 {
+  font-size: 24px;
+  font-weight: lighter;
+}
+.plastic p {
+  margin-top: 15px;
+}
+.plastic p i {
+  font-size: 20px;
+  display: inline-block;
+}
+.plastic button {
+  background-color: rgb(22, 139, 202);
+  color: white;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  border: none;
+  margin: 1.5rem 0 0;
+  border-radius: 5px;
+  transition: 0.4s ease-in all;
+  width: 70%;
+}
+i.fa-times-circle {
+  background-color: transparent;
+  color: gray;
+}
+#medical-news {
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  padding: 15px;
+}
+#blog-image {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 0 auto;
+}
+#blog-image .image {
+  border: 2px solid white;
+  margin: 15px;
+}
+#blog-image .image div {
+  background-color: rgb(22, 139, 202);
+  width: 30%;
+  font-size: 16px;
+  color: white;
+  font-family: sans-serif;
+  padding: 10px;
+  margin: 10px;
+}
+#blog-image .image h4 {
+  padding: 10px;
+  width: 60%;
+}
+#blog-image .image p {
+  padding: 10px;
+  color: rgb(158, 157, 157);
+}
+.heading3 {
+  padding: 20px;
+  margin: auto;
+  width: 40%;
+  text-align: center;
+}
+.heading3 h1 {
+  padding: 10px;
+  margin: 10px;
+}
+#form-image {
+  background-image: url("./img/contact-img.png");
+  height: 100vh;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+#form-image .image form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 35%;
+  padding: 100px;
+  gap: 1.5rem;
+}
+#form-image .image form input {
+  border: 1px solid rgb(209, 209, 209);
+  padding: 1rem 1.7rem;
+  border-radius: 4px;
+  outline: 0;
+  width: 35%;
+}
+#form-image .image form button {
+  background-color: rgb(22, 139, 202);
+  color: white;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  margin: 1.5rem 0 0;
+  border-radius: 5px;
+  transition: 0.4s ease-in all;
+  width: 45%;
+}
+#form-image .image form select {
+  padding: 10px;
+  width: 45%;
+}
+#signup{
+  background-color:rgb(217, 242, 255);
+  display: flex;
+  
+  margin: auto;
+}
+#footer {
+  background-color: rgb(22, 139, 202);
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 0 auto;
+  color: white;
+}
+#footer .about:nth-of-type(2) {
+  width: 40%;
+}
+#footer .about:nth-of-type(2) ul {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#footer .about:nth-of-type(2) ul div {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+#footer i {
+  border-radius: 50%;
+  border: 1px solid white;
+  font-size: 16px;
+  padding: 5px;
+  margin: 5px;
+}
+#footer h4 {
+  padding: 20px;
+  margin: 20px;
+}
+#footer p {
+  padding: 10px;
+}
